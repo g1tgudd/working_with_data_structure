@@ -1,7 +1,4 @@
-fn reverse_string () {
-
-}
-
 fn main() {
-    
+    println!("Hello World!");
 }
+
