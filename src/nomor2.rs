@@ -1,10 +1,10 @@
-fn find_prime(number: &i32) -> bool {
+fn find_prime(input: &i32) -> bool {
 
-    if *number <= 1 {
+    if *input <= 1 {
         return false;
     }
-    for n in 2..*number {
-        if *number % n == 0 {
+    for n in 2..*input {
+        if *input % n == 0 {
             return false;
         }
     }
